@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Investments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between p-4 bg-gray-800 text-white">
+            <div class="text-lg">Real Estate Investments</div>
+            <div>
+                <a href="index.html" class="px-4">Home</a>
+                <a href="properties.html" class="px-4">Properties</a>
+                <a href="about.html" class="px-4">About</a>
+                <a href="contact.html" class="px-4">Contact</a>
+                <a href="login.html" class="px-4">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero bg-cover h-[500px]" style="background-image: url('https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg'); background-position: center;">
+            <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+                <div class="text-center">
+                    <h1 class="text-5xl font-bold text-white mb-4">Invest in Your Future</h1>
+                    <p class="text-xl text-white mb-8">Discover Premium Real Estate Investment Opportunities</p>
+                    <a href="properties.html" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        View Properties
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="p-4">
+            <h2 class="text-2xl">Featured Properties</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Featured Property 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg" alt="Luxury Home" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Luxury Villa</h3>
+                        <p class="text-gray-600">Beverly Hills, CA</p>
+                        <p class="text-green-600 font-bold mt-2">$2,500,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 5 beds</span>
+                                <span><i class="fas fa-bath"></i> 4 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Property 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg" alt="Modern Apartment" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Modern Apartment</h3>
+                        <p class="text-gray-600">Manhattan, NY</p>
+                        <p class="text-green-600 font-bold mt-2">$1,200,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 2 beds</span>
+                                <span><i class="fas fa-bath"></i> 2 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Property 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg" alt="Beach House" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Beachfront Property</h3>
+                        <p class="text-gray-600">Miami Beach, FL</p>
+                        <p class="text-green-600 font-bold mt-2">$3,800,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 4 beds</span>
+                                <span><i class="fas fa-bath"></i> 3 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="p-4 bg-gray-800 text-white text-center">
+        &copy; 2023 Real Estate Investments
+    </footer>
+</body>
+</html>
