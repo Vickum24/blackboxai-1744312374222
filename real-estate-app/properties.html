@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties - Real Estate Investments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between p-4 bg-gray-800 text-white">
+            <div class="text-lg">Real Estate Investments</div>
+            <div>
+                <a href="index.html" class="px-4">Home</a>
+                <a href="properties.html" class="px-4">Properties</a>
+                <a href="about.html" class="px-4">About</a>
+                <a href="contact.html" class="px-4">Contact</a>
+                <a href="login.html" class="px-4">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="p-4">
+            <h2 class="text-2xl">Property Listings</h2>
+            <!-- Search and Filter Section -->
+            <div class="bg-gray-100 p-4 rounded mb-6">
+                <input type="text" placeholder="Search properties..." class="w-full p-2 rounded border mb-2">
+                <div class="flex flex-wrap gap-2">
+                    <select class="p-2 rounded border">
+                        <option>Price Range</option>
+                        <option>$0 - $500,000</option>
+                        <option>$500,000 - $1,000,000</option>
+                        <option>$1,000,000+</option>
+                    </select>
+                    <select class="p-2 rounded border">
+                        <option>Property Type</option>
+                        <option>House</option>
+                        <option>Apartment</option>
+                        <option>Villa</option>
+                    </select>
+                    <select class="p-2 rounded border">
+                        <option>Bedrooms</option>
+                        <option>1+</option>
+                        <option>2+</option>
+                        <option>3+</option>
+                        <option>4+</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Property Listings Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Property 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg" alt="Luxury Home" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Luxury Villa</h3>
+                        <p class="text-gray-600">Beverly Hills, CA</p>
+                        <p class="text-green-600 font-bold mt-2">$2,500,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 5 beds</span>
+                                <span><i class="fas fa-bath"></i> 4 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg" alt="Modern Apartment" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Modern Apartment</h3>
+                        <p class="text-gray-600">Manhattan, NY</p>
+                        <p class="text-green-600 font-bold mt-2">$1,200,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 2 beds</span>
+                                <span><i class="fas fa-bath"></i> 2 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg" alt="Beach House" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Beachfront Property</h3>
+                        <p class="text-gray-600">Miami Beach, FL</p>
+                        <p class="text-green-600 font-bold mt-2">$3,800,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 4 beds</span>
+                                <span><i class="fas fa-bath"></i> 3 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg" alt="Modern House" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Modern Family Home</h3>
+                        <p class="text-gray-600">Seattle, WA</p>
+                        <p class="text-green-600 font-bold mt-2">$1,850,000</p>
+                        <div class="mt-2 flex justify-between items-center">
+                            <div class="text-sm text-gray-600">
+                                <span class="mr-2"><i class="fas fa-bed"></i> 4 beds</span>
+                                <span><i class="fas fa-bath"></i> 3 baths</span>
+                            </div>
+                            <a href="property.html" class="bg-blue-500 text-white px-4 py-2 rounded">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="p-4 bg-gray-800 text-white text-center">
+        &copy; 2023 Real Estate Investments
+    </footer>
+</body>
+</html>
